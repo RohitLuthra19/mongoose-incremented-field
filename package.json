@@ -1,0 +1,29 @@
+{
+  "name": "mongoose-incremented-field",
+  "version": "1.0.0",
+  "description": "This plugin allows you to auto-increment any field with prefix and suffix on any mongoose schema that you wish.",
+  "dependencies": {
+    "extend": "^3.0.0"
+  },
+  "peerDependencies": {
+    "mongoose": "^5.2.7"
+  },
+  "devDependencies": {
+    "async": "*",
+    "chai": "*",
+    "mocha": "*",
+    "mongoose": "^5.2.7"
+  },
+  "keywords": [
+    "plugin",
+    "auto-increment",
+    "mongoose"
+  ],
+  "author": {
+    "name": "Rohit Luthra",
+    "email": "rohitkumarluthra09@gmail.com"
+  },
+  "scripts": {
+    "test": "mocha"
+  }
+}
